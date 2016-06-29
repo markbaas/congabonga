@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
+<interface>
+  <requires lib="gtk+" version="3.12"/>
+  <object class="GtkButton" id="button_hb_back">
+    <property name="visible">True</property>
+    <property name="can_focus">True</property>
+    <property name="receives_default">True</property>
+    <signal name="clicked" handler="on_button_hb_back_clicked" swapped="no"/>
+    <child>
+      <object class="GtkArrow" id="arrow1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="arrow_type">left</property>
+      </object>
+    </child>
+  </object>
+  <object class="GtkButton" id="button_hb_search">
+    <property name="visible">True</property>
+    <property name="can_focus">True</property>
+    <property name="receives_default">True</property>
+    <signal name="clicked" handler="on_button_hb_search_clicked" swapped="no"/>
+    <child>
+      <object class="GtkImage" id="image2">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="halign">end</property>
+        <property name="stock">gtk-find</property>
+      </object>
+    </child>
+  </object>
+  <object class="GtkButtonBox" id="hb_buttonbox">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="halign">center</property>
+    <property name="layout_style">start</property>
+    <child>
+      <object class="GtkButton" id="button_hb_albums">
+        <property name="label" translatable="yes">Albums</property>
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <signal name="clicked" handler="on_button_hb_albums_clicked" swapped="no"/>
+      </object>
+      <packing>
+        <property name="expand">True</property>
+        <property name="fill">True</property>
+        <property name="position">0</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkButton" id="button_hb_artists">
+        <property name="label" translatable="yes">Artists</property>
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <signal name="clicked" handler="on_button_hb_artists_clicked" swapped="no"/>
+      </object>
+      <packing>
+        <property name="expand">True</property>
+        <property name="fill">True</property>
+        <property name="position">1</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkButton" id="button_hb_tracks">
+        <property name="label" translatable="yes">Tracks</property>
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <signal name="clicked" handler="on_button_hb_tracks_clicked" swapped="no"/>
+      </object>
+      <packing>
+        <property name="expand">True</property>
+        <property name="fill">True</property>
+        <property name="position">2</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkButton" id="button_hb_playlists">
+        <property name="label" translatable="yes">Playlists</property>
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <signal name="clicked" handler="on_button_hb_playlists_clicked" swapped="no"/>
+      </object>
+      <packing>
+        <property name="expand">True</property>
+        <property name="fill">True</property>
+        <property name="position">3</property>
+      </packing>
+    </child>
+  </object>
+</interface>

@@ -1,0 +1,38 @@
+.albumdetails, .controlsalbum {
+    border-width: 1px;
+    border-color:  #cccccc;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+GtkTreeView.list {
+    background-color: #f2f2f2;
+}
+
+GtkTreeView.list:Selected {
+    background-color: #cccccc;
+}
+
+GtkTreeView.playlist {
+    background-color: white;
+}
+
+GtkSearchEntry.search {
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right-width: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+GtkWindow.popup {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 1px;
+}
